@@ -1,0 +1,17 @@
+* PRE-REQUISITE: googletest
+
+* Steps to install googletest
+* sudo apt-get install libgtest-dev
+* cd /usr/src/gtest
+* sudo cmake CMakeLists.txt
+* sudo make
+ 
+* #copy or symlink libgtest.a and libgtest_main.a to your /usr/lib folder
+* #find and copy libgtest.a, libtgtest_main.a to /usr/lib
+* sudo cp *.a /usr/lib
+
+* Build commands
+
+cd build_/
+cmake ./..
+cmake --build .
